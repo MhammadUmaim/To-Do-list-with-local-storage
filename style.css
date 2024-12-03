@@ -1,0 +1,139 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(150,105,25);
+    background: linear-gradient(348deg, rgba(150,105,25,1) 0%, rgba(237,213,171,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* Text color for better contrast */
+  }
+  
+  #main {
+    background:#fefaef	;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    color: #333; /* Override text color inside the main container */
+  }
+  
+  /* Heading Styling */
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Darker color for contrast */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background: #0056b3;
+    box-shadow: 4px 4px 7px gray;
+  }
+  
+  /* Task List Styling */
+  .box {
+    margin-top: 20px;
+  }
+  
+  .prnt-div {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px; /* Added spacing between elements */
+  }
+  
+  .prnt-div p {
+    margin: 0;
+    flex-grow: 1;
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    box-shadow: 4px 4px 7px gray;
+   font-size: 15px;
+   transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  
+  button[disabled] {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:nth-child(2) {
+    background: #28a745;
+    color: white;
+  }
+  
+  button:nth-child(3) {
+    background: #ffc107;
+    color: white;
+  }
+  
+  button:nth-child(4) {
+    background: #dc3545;
+    color: white;
+  }
+  
+  input[type="text"].hide {
+    display: none;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .head{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  input[type="text"]:focus{
+    border: 2px ridge rgb(56, 53, 53);
+  }
